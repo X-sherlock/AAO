@@ -1,3 +1,5 @@
+# Frozen datasets are checksum-addressed and must remain byte-for-byte identical.
+data/** binary
 *.parquet binary
 *.npz binary
 *.pt binary
