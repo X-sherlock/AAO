@@ -1,0 +1,72 @@
+{
+  "actual_common_date_range": [
+    "2008-01-02",
+    "2026-07-22"
+  ],
+  "asset_universe": [
+    "SPY",
+    "IWM",
+    "IEF",
+    "TLT",
+    "LQD",
+    "HYG",
+    "GLD",
+    "DBC",
+    "VNQ",
+    "BIL"
+  ],
+  "created_at_utc": "2026-07-23T06:10:51.738940+00:00",
+  "dataset_id": "real_us_multi_asset_v1",
+  "dataset_version": "v1",
+  "dependency_versions": {
+    "PyYAML": "6.0",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.0",
+    "yfinance": "1.5.1"
+  },
+  "duplicate_counts": 0,
+  "git_commit": "54be520b7789ed51a24dc05db174c4eb91c01556",
+  "immutability": "directory must never be overwritten",
+  "missing_value_counts": {
+    "adjusted_close": 0,
+    "asset_code": 0,
+    "close": 0,
+    "currency": 0,
+    "date": 0,
+    "high": 0,
+    "low": 0,
+    "open": 0,
+    "source": 0,
+    "volume": 0
+  },
+  "provider": "yfinance",
+  "provider_parameters": {
+    "currency": "USD",
+    "timeout": 30
+  },
+  "python_version": "3.11.2",
+  "raw_file_paths": [
+    "ohlcv.parquet",
+    "asset_metadata.csv"
+  ],
+  "requested_date_range": [
+    "2008-01-01",
+    null
+  ],
+  "row_counts": {
+    "by_asset": {
+      "BIL": 4667,
+      "DBC": 4667,
+      "GLD": 4667,
+      "HYG": 4667,
+      "IEF": 4667,
+      "IWM": 4667,
+      "LQD": 4667,
+      "SPY": 4667,
+      "TLT": 4667,
+      "VNQ": 4667
+    },
+    "total": 46670
+  }
+}

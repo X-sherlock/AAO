@@ -1,0 +1,22 @@
+portfolio_config: configs/real_us_multi_asset_portfolio.yaml
+
+dataset:
+  type: synthetic
+
+split:
+  mode: fixed
+  split_id: synthetic_fixed_v1
+
+risk:
+  estimator: shrinkage
+
+training:
+  device: cpu
+  seed: 42
+  output_dir: reports/ppo_formal_entry_synthetic_smoke
+  ppo:
+    total_steps: 128
+    rollout_steps: 64
+    update_epochs: 2
+    minibatch_size: 32
+    hidden_dim: 32

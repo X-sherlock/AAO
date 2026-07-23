@@ -1,0 +1,11 @@
+asset_code,asset_name,asset_class,currency,provider,requested_start_date,requested_end_date,actual_start_date,actual_end_date,row_count,first_valid_date,last_valid_date
+SPY,SPDR S&P 500 ETF Trust,US large-cap equity,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+IWM,iShares Russell 2000 ETF,US small-cap equity,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+IEF,iShares 7-10 Year Treasury Bond ETF,intermediate Treasury,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+TLT,iShares 20+ Year Treasury Bond ETF,long Treasury,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+LQD,iShares iBoxx Investment Grade Corporate Bond ETF,investment-grade credit,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+HYG,iShares iBoxx High Yield Corporate Bond ETF,high-yield credit,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+GLD,SPDR Gold Shares,gold,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+DBC,Invesco DB Commodity Index Tracking Fund,broad commodities,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+VNQ,Vanguard Real Estate ETF,US real estate,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22
+BIL,SPDR Bloomberg 1-3 Month T-Bill ETF,cash proxy,USD,yfinance,2008-01-01,,2008-01-02,2026-07-22,4667,2008-01-02,2026-07-22

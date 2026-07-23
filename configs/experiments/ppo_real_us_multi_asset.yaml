@@ -1,0 +1,46 @@
+portfolio_config: configs/real_us_multi_asset_portfolio.yaml
+
+experiment:
+  seeds: [42, 43, 44, 45, 46]
+
+dataset:
+  type: frozen_real
+  dataset_id: real_us_multi_asset_v1
+  data_path: data/processed/real_us_multi_asset_v1
+
+split:
+  mode: fixed
+  split_id: fixed_v1
+
+risk:
+  estimator: shrinkage
+
+evaluation:
+  periods_per_year: 52
+
+anchor:
+  step: 0.05
+  # Strategic-search bounds are intentionally distinct from hard environment
+  # limits. The full Cartesian 5% grid inside these bounds is enumerated.
+  weight_min: [0.15, 0.05, 0.05, 0.05, 0.05, 0.00, 0.05, 0.00, 0.00, 0.10]
+  weight_max: [0.25, 0.15, 0.20, 0.15, 0.15, 0.10, 0.15, 0.10, 0.10, 0.20]
+  near_optimal_tolerance: 0.02
+  output: reports/real_us_multi_asset_v1/strategic_anchors.json
+
+training:
+  device: cuda
+  seed: 42
+  output_dir: reports/real_us_multi_asset_v1/fixed_v1/ppo
+  ppo:
+    total_steps: 100000
+    rollout_steps: 512
+    update_epochs: 10
+    minibatch_size: 64
+    learning_rate: 0.0003
+    gamma: 0.99
+    gae_lambda: 0.95
+    clip_ratio: 0.2
+    entropy_coefficient: 0.001
+    value_coefficient: 0.5
+    max_gradient_norm: 0.5
+    hidden_dim: 64

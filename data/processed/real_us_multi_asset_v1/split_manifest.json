@@ -1,0 +1,232 @@
+{
+  "dataset_id": "real_us_multi_asset_v1",
+  "date_semantics": "inclusive boundaries; strictly ordered train then validation then test",
+  "splits": [
+    {
+      "split_id": "fixed_v1",
+      "test_end": "2026-07-22",
+      "test_start": "2021-01-08",
+      "train_end": "2017-12-29",
+      "train_start": "2008-06-27",
+      "validation_end": "2020-12-31",
+      "validation_start": "2018-01-05"
+    },
+    {
+      "split_id": "expanding_001",
+      "test_end": "2015-06-12",
+      "test_start": "2014-06-20",
+      "train_end": "2013-06-14",
+      "train_start": "2008-06-27",
+      "validation_end": "2014-06-13",
+      "validation_start": "2013-06-21"
+    },
+    {
+      "split_id": "expanding_002",
+      "test_end": "2016-06-10",
+      "test_start": "2015-06-19",
+      "train_end": "2014-06-13",
+      "train_start": "2008-06-27",
+      "validation_end": "2015-06-12",
+      "validation_start": "2014-06-20"
+    },
+    {
+      "split_id": "expanding_003",
+      "test_end": "2017-06-09",
+      "test_start": "2016-06-17",
+      "train_end": "2015-06-12",
+      "train_start": "2008-06-27",
+      "validation_end": "2016-06-10",
+      "validation_start": "2015-06-19"
+    },
+    {
+      "split_id": "expanding_004",
+      "test_end": "2018-06-08",
+      "test_start": "2017-06-16",
+      "train_end": "2016-06-10",
+      "train_start": "2008-06-27",
+      "validation_end": "2017-06-09",
+      "validation_start": "2016-06-17"
+    },
+    {
+      "split_id": "expanding_005",
+      "test_end": "2019-06-07",
+      "test_start": "2018-06-15",
+      "train_end": "2017-06-09",
+      "train_start": "2008-06-27",
+      "validation_end": "2018-06-08",
+      "validation_start": "2017-06-16"
+    },
+    {
+      "split_id": "expanding_006",
+      "test_end": "2020-06-05",
+      "test_start": "2019-06-14",
+      "train_end": "2018-06-08",
+      "train_start": "2008-06-27",
+      "validation_end": "2019-06-07",
+      "validation_start": "2018-06-15"
+    },
+    {
+      "split_id": "expanding_007",
+      "test_end": "2021-06-04",
+      "test_start": "2020-06-12",
+      "train_end": "2019-06-07",
+      "train_start": "2008-06-27",
+      "validation_end": "2020-06-05",
+      "validation_start": "2019-06-14"
+    },
+    {
+      "split_id": "expanding_008",
+      "test_end": "2022-06-03",
+      "test_start": "2021-06-11",
+      "train_end": "2020-06-05",
+      "train_start": "2008-06-27",
+      "validation_end": "2021-06-04",
+      "validation_start": "2020-06-12"
+    },
+    {
+      "split_id": "expanding_009",
+      "test_end": "2023-06-02",
+      "test_start": "2022-06-10",
+      "train_end": "2021-06-04",
+      "train_start": "2008-06-27",
+      "validation_end": "2022-06-03",
+      "validation_start": "2021-06-11"
+    },
+    {
+      "split_id": "expanding_010",
+      "test_end": "2024-05-31",
+      "test_start": "2023-06-09",
+      "train_end": "2022-06-03",
+      "train_start": "2008-06-27",
+      "validation_end": "2023-06-02",
+      "validation_start": "2022-06-10"
+    },
+    {
+      "split_id": "expanding_011",
+      "test_end": "2025-05-30",
+      "test_start": "2024-06-07",
+      "train_end": "2023-06-02",
+      "train_start": "2008-06-27",
+      "validation_end": "2024-05-31",
+      "validation_start": "2023-06-09"
+    },
+    {
+      "split_id": "expanding_012",
+      "test_end": "2026-05-29",
+      "test_start": "2025-06-06",
+      "train_end": "2024-05-31",
+      "train_start": "2008-06-27",
+      "validation_end": "2025-05-30",
+      "validation_start": "2024-06-07"
+    },
+    {
+      "split_id": "rolling_001",
+      "test_end": "2015-06-12",
+      "test_start": "2014-06-20",
+      "train_end": "2013-06-14",
+      "train_start": "2008-06-27",
+      "validation_end": "2014-06-13",
+      "validation_start": "2013-06-21"
+    },
+    {
+      "split_id": "rolling_002",
+      "test_end": "2016-06-10",
+      "test_start": "2015-06-19",
+      "train_end": "2014-06-13",
+      "train_start": "2009-06-26",
+      "validation_end": "2015-06-12",
+      "validation_start": "2014-06-20"
+    },
+    {
+      "split_id": "rolling_003",
+      "test_end": "2017-06-09",
+      "test_start": "2016-06-17",
+      "train_end": "2015-06-12",
+      "train_start": "2010-06-25",
+      "validation_end": "2016-06-10",
+      "validation_start": "2015-06-19"
+    },
+    {
+      "split_id": "rolling_004",
+      "test_end": "2018-06-08",
+      "test_start": "2017-06-16",
+      "train_end": "2016-06-10",
+      "train_start": "2011-06-24",
+      "validation_end": "2017-06-09",
+      "validation_start": "2016-06-17"
+    },
+    {
+      "split_id": "rolling_005",
+      "test_end": "2019-06-07",
+      "test_start": "2018-06-15",
+      "train_end": "2017-06-09",
+      "train_start": "2012-06-22",
+      "validation_end": "2018-06-08",
+      "validation_start": "2017-06-16"
+    },
+    {
+      "split_id": "rolling_006",
+      "test_end": "2020-06-05",
+      "test_start": "2019-06-14",
+      "train_end": "2018-06-08",
+      "train_start": "2013-06-21",
+      "validation_end": "2019-06-07",
+      "validation_start": "2018-06-15"
+    },
+    {
+      "split_id": "rolling_007",
+      "test_end": "2021-06-04",
+      "test_start": "2020-06-12",
+      "train_end": "2019-06-07",
+      "train_start": "2014-06-20",
+      "validation_end": "2020-06-05",
+      "validation_start": "2019-06-14"
+    },
+    {
+      "split_id": "rolling_008",
+      "test_end": "2022-06-03",
+      "test_start": "2021-06-11",
+      "train_end": "2020-06-05",
+      "train_start": "2015-06-19",
+      "validation_end": "2021-06-04",
+      "validation_start": "2020-06-12"
+    },
+    {
+      "split_id": "rolling_009",
+      "test_end": "2023-06-02",
+      "test_start": "2022-06-10",
+      "train_end": "2021-06-04",
+      "train_start": "2016-06-17",
+      "validation_end": "2022-06-03",
+      "validation_start": "2021-06-11"
+    },
+    {
+      "split_id": "rolling_010",
+      "test_end": "2024-05-31",
+      "test_start": "2023-06-09",
+      "train_end": "2022-06-03",
+      "train_start": "2017-06-16",
+      "validation_end": "2023-06-02",
+      "validation_start": "2022-06-10"
+    },
+    {
+      "split_id": "rolling_011",
+      "test_end": "2025-05-30",
+      "test_start": "2024-06-07",
+      "train_end": "2023-06-02",
+      "train_start": "2018-06-15",
+      "validation_end": "2024-05-31",
+      "validation_start": "2023-06-09"
+    },
+    {
+      "split_id": "rolling_012",
+      "test_end": "2026-05-29",
+      "test_start": "2025-06-06",
+      "train_end": "2024-05-31",
+      "train_start": "2019-06-14",
+      "validation_end": "2025-05-30",
+      "validation_start": "2024-06-07"
+    }
+  ],
+  "standardization": "one scaler per split fitted on training rows only"
+}

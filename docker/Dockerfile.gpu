@@ -1,0 +1,12 @@
+FROM pytorch/pytorch:2.11.0-cuda12.6-cudnn9-runtime
+
+WORKDIR /workspace
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+COPY . .
+RUN python -m pip install -e ".[report]"
+
+ENTRYPOINT ["python", "experiments/run_experiment_matrix.py"]
+CMD ["--config", "configs/experiments/ppo_real_us_multi_asset.yaml", "--device", "cuda"]

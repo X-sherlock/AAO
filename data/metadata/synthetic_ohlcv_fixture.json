@@ -1,0 +1,24 @@
+{
+  "synthetic_fixture_only": true,
+  "prohibited_interpretation": "not real market data and not a performance result",
+  "generator": "asset_allocation.data_download.synthetic.make_synthetic_ohlcv",
+  "assets": [
+    "SPY",
+    "IWM",
+    "IEF",
+    "LQD",
+    "HYG",
+    "GLD",
+    "DBC",
+    "VNQ",
+    "BIL"
+  ],
+  "date_range": [
+    "2020-01-02",
+    "2020-09-17"
+  ],
+  "rows": 2340,
+  "adjustment": "not applicable",
+  "timezone": "fixture calendar without exchange semantics",
+  "sha256": "9a49c13266f83694acb84b028964cc88cee996f912367efd7c6fe844a9ec5b23"
+}

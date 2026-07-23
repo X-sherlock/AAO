@@ -1,0 +1,93 @@
+{
+  "asset_count": 10,
+  "asset_ranges": {
+    "BIL": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "DBC": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "GLD": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "HYG": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "IEF": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "IWM": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "LQD": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "SPY": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "TLT": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    },
+    "VNQ": {
+      "actual_end_date": "2026-07-22",
+      "actual_start_date": "2008-01-02",
+      "row_count": 4667
+    }
+  },
+  "duplicate_count": 0,
+  "extreme_return_threshold": 0.35,
+  "extreme_returns": [],
+  "failures": [],
+  "longest_missing_run_by_asset": {
+    "BIL": 0,
+    "DBC": 0,
+    "GLD": 0,
+    "HYG": 0,
+    "IEF": 0,
+    "IWM": 0,
+    "LQD": 0,
+    "SPY": 0,
+    "TLT": 0,
+    "VNQ": 0
+  },
+  "missing_value_counts": {
+    "adjusted_close": 0,
+    "asset_code": 0,
+    "close": 0,
+    "currency": 0,
+    "date": 0,
+    "high": 0,
+    "low": 0,
+    "open": 0,
+    "source": 0,
+    "volume": 0
+  },
+  "negative_volume_count": 0,
+  "ohlc_high_errors": 0,
+  "ohlc_low_errors": 0,
+  "requested_date_range": [
+    "2008-01-01",
+    null
+  ],
+  "row_count": 46670,
+  "status": "passed",
+  "warnings": []
+}

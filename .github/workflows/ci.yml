@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install CPU test environment
+        run: python -m pip install -e ".[train,dev]"
+      - name: Run unit tests
+        run: python -m pytest
+      - name: Run end-to-end CPU smoke evaluation
+        run: >-
+          python experiments/train_ppo.py
+          --config configs/experiments/ppo_real_us_multi_asset_smoke.yaml
+          --device cpu
+          --total-steps 64
+          --output-dir /tmp/aao-ci-smoke
+      - name: Check all evaluation segments
+        run: >-
+          python -c
+          "import json;
+          r=json.load(open('/tmp/aao-ci-smoke/training_result.json'));
+          assert set(r['evaluations']) == {'train','validation','test'}"
